@@ -1,11 +1,8 @@
 # Collaborators: 
 # non
-import random
-for x in range (1):
-  number = random.randint(2,51)
-  print(number)
 
-if (number % 3 == 0):
-  print(str(number)+" is divisible by 3")
-else: 
-  print(str(number)+" is not divisible by 3")
+for x in range (2,51):
+    if (x % 3 == 0):
+      print(str(x)+" is divisible by 3")
+    else: 
+      print(str(x)+" is not divisible by 3")
